@@ -12,6 +12,8 @@ import Assessments from "./pages/Assessments";
 import Contact from "./pages/Contact";
 import ModalityDetail from "./pages/ModalityDetail";
 import Login from "./pages/Login";
+import StudentArea from "./pages/StudentArea";
+
 import AuthProvider from "./contexts/AuthProvider";
 
 function App() {
@@ -32,6 +34,7 @@ function App() {
             <Route path="/contato" element={<Contact />} />
 
             <Route path="/login" element={<Login />} />
+            <Route path="/area-do-aluno" element={<StudentArea />} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>
